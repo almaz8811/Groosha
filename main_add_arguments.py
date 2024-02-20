@@ -4,7 +4,6 @@ from datetime import datetime
 from aiogram import Bot, Dispatcher
 from aiogram.types import Message
 from aiogram.filters.command import Command
-from aiogram.enums.dice_emoji import DiceEmoji
 from config_data.config import Config, load_config
 
 # Включение логирования, чтобы не пропустить важные сообщения
